@@ -1,0 +1,278 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+/* Ketik code Anda dibaris bawah */
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container heading {
+    padding-top: 100px;
+}
+
+.top-wrapper {
+    padding: 250px 0 250px 0;
+    background-image: url("https://primadesain.xyz/img/motor-bg.jpg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+    text-align: center;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.lesson {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 44%;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.message-wrapper {
+    margin-top: 100px;
+    border-bottom: 1px solid #eee;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+footer img {
+    width: 125px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+/*Kode Alfi */
+footer-logo {
+    float: left;
+    font-size: 12px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 5px;
+    list-style: none;
+    font-size: 12px;
+
+}
+.footer-list span {
+    color:#000;
+}
+
+footer span {
+    color: #b3aeb5;
+    font-size: 10px;
+}
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/* Kode Messsage */
+.message{
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.btn:hover{
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    animation: pulse 3s infinite;
+}
+
+
+.btn:active{
+    -webkit-transform: scale(1, 1);
+    opacity: 0.9;
+    transform: scale(1.1, 1.1);
+    animation-play-state: paused;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(107, 179, 65, 1);
+    }
+    50% {
+        -webkit-box-shadow: 0 0 0 10px rgba(107, 179, 65, 0.5);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(107, 179, 65, 0);
+    }
+}
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(107, 179, 65, 0.8);
+        box-shadow: 0 0 0 0 rgba(107, 179, 65, 0.4);
+    }
+    50% {
+        -moz-box-shadow: 0 0 0 10px rgba(107, 179, 65, 0.3);
+        box-shadow: 0 0 0 10px rgba(107, 179, 65, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(107, 179, 65, 0);
+        box-shadow: 0 0 0 0 rgba(107, 179, 65, 0);
+    }
+}
